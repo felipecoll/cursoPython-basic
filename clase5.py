@@ -11,6 +11,15 @@ print(x - y)
 print(x * y)
 print(x / y)
 
+print("Nunca", "pares", "de", "aprender", sep=", ")
+
+frase = "Nunca pares de aprender"
+author = "Platzi"
+print("Frase: {}, Autor: {}".format(frase, author))
+
+
+print("Hola\nmundo")
+
 # print(z)
 # print(a)
 # print(type(x + y))
