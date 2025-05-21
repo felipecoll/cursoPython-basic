@@ -19,8 +19,16 @@ mix = [1, 2, 3, 4, 5, "cinco", True]
 # print(mix[2:-1])
 
 # print(mix)
-mix.append(False)
-print(mix)
+# mix.append(False)
+# print(mix)
 
-mix.append(['a', 'b', 'c'])
-print(mix)
+# mix.append(['a', 'b', 'c'])
+# print(mix)
+
+numbers = [1, 2, 3, 87, 2232, 4, 5]
+
+print("Mayor: ",(max(numbers)))
+print("Menor: ",(min(numbers)))
+
+del numbers[-1]
+print(numbers)
