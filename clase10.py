@@ -13,4 +13,3 @@ print(values)
 items = information.items()
 print(items)
 
-contacts = {}
